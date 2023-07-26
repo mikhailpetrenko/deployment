@@ -8,4 +8,4 @@ app.get('/',(req,res) => {
     res.sendFile(path.join(__dirname,'../public/index.html'))
 })
 
-app.listen(4000, () => console.log(`server running on 4001`))
+app.listen(4000, () => console.log(`server running on 4000`))
